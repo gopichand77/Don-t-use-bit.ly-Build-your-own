@@ -1,0 +1,21 @@
+{
+    "hosting": {
+      "appAssociation": "AUTO",
+      "rewrites": [
+        {
+          "source": "/**",
+          "dynamicLinks": true  
+        }
+      ],
+      "public": "public",
+  
+      "ignore": ["firebase.json", "**/.*", "*", "**/node_modules/**"],
+  
+      "redirects": [ {
+        "source": "/",
+        "destination": "http://gopichand.me",
+        "type": 301
+      } ]
+    }
+  }
+  
